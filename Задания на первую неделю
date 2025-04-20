@@ -1,0 +1,42 @@
+#Task 1
+## 1. Tokenization
+
+*   find any text
+*   split into sentences
+*   split into tokens
+*   normalize
+*   create vocabulary
+
+
+## 2. Byte-pair encoding
+
+*   implement algorithm
+*   create vocabulary
+* convert text into token ids (optional)
+
+
+# Task 2: N-gram models
+
+> Implement n-gram model
+  * Create model for arbitrary number n
+  * Implement smoothing
+  * Generate text using "trained" model
+
+# Task 3: Word2Vec
+
+> Implement word embeddings model
+  * You can implement only one of two models: CBOW or skip-gram
+  * You can use packages such as PyTorch or TensorFlow or others to build NN and train the model
+  * Implement embeddings "look up" and print most similar words given a word from vocabulary
+
+# Task 4: RNN
+
+Implement RNN model
+  * Choose one of the tasks: entities tagging, or text classification, or generating next token
+  * Build and train RNN model that learns the chosen task
+  * Make sure to have a layer of embedding, at least one RNN layer, and linear transformation before output
+  * Demonstrate that model works for any examples
+
+# Task for 5: optional
+
+Implement separately embedding training module and use pre-trained embeddings instead of embedding layer before RNN.
